@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Tạo Intent để chuyển đến NewActivity
-                Intent intent = new Intent(MainActivity.this, activity_ngoc.class);
-                startActivity(intent); // Mở NewActivity
+                //Intent intent = new Intent(MainActivity.this, activity_ngoc.class);
+                //startActivity(intent); // Mở NewActivity
             }
         });
 
