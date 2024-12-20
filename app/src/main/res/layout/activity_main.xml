@@ -8,7 +8,11 @@
     tools:context=".MainActivity">
 
     <TextView
+<<<<<<< HEAD
         android:id="@+id/title"
+=======
+        android:id="@+id/textView"
+>>>>>>> 275701364a8fe87c751ae6987c7f9969568f45dd
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NHÓM 11"
@@ -19,6 +23,7 @@
         />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/button_open"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -29,3 +34,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"/>
 </RelativeLayout>
+=======
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="layout ngoc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 275701364a8fe87c751ae6987c7f9969568f45dd
