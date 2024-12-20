@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="8dp">
+
+    <!-- Tên công việc -->
+    <TextView
+        android:id="@+id/tile_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên công việc"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingBottom="8dp" />
+
+    <!-- Mô tả công việc -->
+    <TextView
+        android:id="@+id/description_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả công việc"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingBottom="8dp" />
+
+    <!-- Dòng phân cách -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Các nút hành động (Chỉnh sửa, Xóa) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <ImageButton
+            android:id="@+id/task_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_edit"
+            android:contentDescription="Chỉnh sửa"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageButton
+            android:id="@+id/task_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="Xóa"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+    </LinearLayout>
+</LinearLayout>
